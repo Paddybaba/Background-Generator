@@ -1,0 +1,21 @@
+.container_b{
+    width: 40%;
+    height: 300px;
+    position: absolute;
+}
+
+.container_a{
+    display: flex;
+    justify-content: center;
+}
+.imagebox{
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    top:0;
+}

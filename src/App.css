@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.app2{
+  display: flex;
+  align-items: center;
+}
+.title{
+  color: purple;
+  font-family: "ubuntu";
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.particles{
+  position: fixed;
+  top : 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.titleanimated{
+  color: #fff;
+font-size: 92px;
+font-family: "ubuntu";
+text-transform: uppercase;
+font-weight: 700;
+font-family: "Josefin Sans", sans-serif;
+background: linear-gradient(to right, #ff672b 10%, #fff 50%, #2cf12c 60%);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 8s linear infinite;
+display: inline-block;
+}
+.blink{
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes textclip {
+to {
+background-position: 200% center;
+}
+}
