@@ -34,7 +34,7 @@ const Signin = ({onSigninClick, onSignupClick, getUserDetails}) =>
             })
         });
         const data = await response.json();
-        // console.log(data);
+        console.log(data);
         if(data.message === "success")
         {
             console.log(data.user);

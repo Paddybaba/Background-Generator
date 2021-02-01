@@ -21,6 +21,7 @@ const Signup = ({onSigninClick, existingUser,getUserDetails}) =>
             body:JSON.stringify(data)       
         })
         const datareceived = await resposne.json();
+        console.log(datareceived)
         if(datareceived.message === 'success'){
             alert (datareceived.user.username + " Successfully registered \n Press OK to proceed")
             onSigninClick();
