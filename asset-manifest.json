@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/backgroundcss.github.io/static/css/main.5ccd1519.chunk.css",
-    "main.js": "/backgroundcss.github.io/static/js/main.a33fb286.chunk.js",
-    "main.js.map": "/backgroundcss.github.io/static/js/main.a33fb286.chunk.js.map",
+    "main.css": "/backgroundcss.github.io/static/css/main.3eae5ced.chunk.css",
+    "main.js": "/backgroundcss.github.io/static/js/main.53b4114c.chunk.js",
+    "main.js.map": "/backgroundcss.github.io/static/js/main.53b4114c.chunk.js.map",
     "runtime-main.js": "/backgroundcss.github.io/static/js/runtime-main.61db0915.js",
     "runtime-main.js.map": "/backgroundcss.github.io/static/js/runtime-main.61db0915.js.map",
     "static/css/2.31461e4f.chunk.css": "/backgroundcss.github.io/static/css/2.31461e4f.chunk.css",
-    "static/js/2.51785141.chunk.js": "/backgroundcss.github.io/static/js/2.51785141.chunk.js",
-    "static/js/2.51785141.chunk.js.map": "/backgroundcss.github.io/static/js/2.51785141.chunk.js.map",
+    "static/js/2.27887b53.chunk.js": "/backgroundcss.github.io/static/js/2.27887b53.chunk.js",
+    "static/js/2.27887b53.chunk.js.map": "/backgroundcss.github.io/static/js/2.27887b53.chunk.js.map",
     "static/js/3.76026d81.chunk.js": "/backgroundcss.github.io/static/js/3.76026d81.chunk.js",
     "static/js/3.76026d81.chunk.js.map": "/backgroundcss.github.io/static/js/3.76026d81.chunk.js.map",
     "index.html": "/backgroundcss.github.io/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/backgroundcss.github.io/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.5ccd1519.chunk.css.map": "/backgroundcss.github.io/static/css/main.5ccd1519.chunk.css.map",
-    "static/js/2.51785141.chunk.js.LICENSE.txt": "/backgroundcss.github.io/static/js/2.51785141.chunk.js.LICENSE.txt",
+    "static/css/main.3eae5ced.chunk.css.map": "/backgroundcss.github.io/static/css/main.3eae5ced.chunk.css.map",
+    "static/js/2.27887b53.chunk.js.LICENSE.txt": "/backgroundcss.github.io/static/js/2.27887b53.chunk.js.LICENSE.txt",
     "static/media/loader.976da9a1.gif": "/backgroundcss.github.io/static/media/loader.976da9a1.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.61db0915.js",
     "static/css/2.31461e4f.chunk.css",
-    "static/js/2.51785141.chunk.js",
-    "static/css/main.5ccd1519.chunk.css",
-    "static/js/main.a33fb286.chunk.js"
+    "static/js/2.27887b53.chunk.js",
+    "static/css/main.3eae5ced.chunk.css",
+    "static/js/main.53b4114c.chunk.js"
   ]
 }
