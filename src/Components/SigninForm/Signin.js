@@ -25,7 +25,7 @@ const Signin = ({onSigninClick, onSignupClick, getUserDetails}) =>
     }
     
     async function onSigninPress(){
-        const response = await fetch('http://localhost:3000/signin',{
+        const response = await fetch('https://rocky-brook-47878.herokuapp.com/signin',{
             method:"POST",
             headers:{"Content-type":"application/json"},
             body:JSON.stringify({

@@ -15,7 +15,7 @@ const Signup = ({onSigninClick, existingUser,getUserDetails}) =>
                 password:userPassword,
                 phoneNumber : phone
         }
-        const resposne = await fetch("http://localhost:3000/signup",{
+        const resposne = await fetch("https://rocky-brook-47878.herokuapp.com/signup",{
             method:"post",
             headers:{"Content-type":"application/json"},
             body:JSON.stringify(data)       
