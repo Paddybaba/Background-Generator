@@ -15,7 +15,7 @@ const Signup = ({onSigninClick, existingUser,getUserDetails}) =>
                 password:userPassword,
                 phoneNumber : phone
         }
-        const resposne = await fetch("http:59.95.92.80/signup",{
+        const resposne = await fetch("http://59.95.92.80/signup",{
             method:"post",
             headers:{"Content-type":"application/json"},
             body:JSON.stringify(data)       

@@ -7,7 +7,7 @@ const InputImageUrl = ({changeUrl,removeBox,onURLSubmit,user,getUserDetails}) =>
        
         onURLSubmit()
             
-        const response  = await fetch("http://localhost:3000/image",{
+        const response  = await fetch("http://59.95.82.80/image",{
             method:'put',
             headers:{"Content-type":"application/json"},
             body:JSON.stringify(user)
