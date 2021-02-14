@@ -25,7 +25,7 @@ const Signin = ({onSigninClick, onSignupClick, getUserDetails}) =>
     }
     
     async function onSigninPress(){
-        const response = await fetch('http:59.95.92.80/signin',{
+        const response = await fetch('http://59.95.92.80/signin',{
             method:"POST",
             headers:{"Content-type":"application/json"},
             body:JSON.stringify({
